@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AOAMazingerViewController.h"
+#import "AOAMazingerZ.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    
+    AOAMazingerViewController *mVC = [[AOAMazingerViewController alloc] initWithAnnotationObject:[[AOAMazingerZ alloc]init]];
+    
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:mVC];
+    
+    self.window.rootViewController = navVC;
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

@@ -11,6 +11,12 @@
 		AAD766591C8C7D74002662D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD766581C8C7D74002662D1 /* AppDelegate.m */; };
 		AAD7665B1C8C7D74002662D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD7665A1C8C7D74002662D1 /* Assets.xcassets */; };
 		AAD7665E1C8C7D74002662D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD7665C1C8C7D74002662D1 /* LaunchScreen.storyboard */; };
+		AAD766661C8C7D92002662D1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD766651C8C7D92002662D1 /* CoreLocation.framework */; };
+		AAD766681C8C7D9A002662D1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD766671C8C7D9A002662D1 /* MapKit.framework */; };
+		AAD7666C1C8C80DB002662D1 /* AOAMazingerZ.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD7666B1C8C80DB002662D1 /* AOAMazingerZ.m */; };
+		AAD766711C8C8392002662D1 /* AOAMazingerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD7666F1C8C8392002662D1 /* AOAMazingerViewController.m */; };
+		AAD766721C8C8392002662D1 /* AOAMazingerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAD766701C8C8392002662D1 /* AOAMazingerViewController.xib */; };
+		AAD886DE1C8C8FD3006B5418 /* mazinger.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD886DD1C8C8FD3006B5418 /* mazinger.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +27,14 @@
 		AAD7665A1C8C7D74002662D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAD7665D1C8C7D74002662D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAD7665F1C8C7D74002662D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD766651C8C7D92002662D1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AAD766671C8C7D9A002662D1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AAD7666A1C8C80DB002662D1 /* AOAMazingerZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOAMazingerZ.h; sourceTree = "<group>"; };
+		AAD7666B1C8C80DB002662D1 /* AOAMazingerZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOAMazingerZ.m; sourceTree = "<group>"; };
+		AAD7666E1C8C8392002662D1 /* AOAMazingerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOAMazingerViewController.h; sourceTree = "<group>"; };
+		AAD7666F1C8C8392002662D1 /* AOAMazingerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOAMazingerViewController.m; sourceTree = "<group>"; };
+		AAD766701C8C8392002662D1 /* AOAMazingerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AOAMazingerViewController.xib; sourceTree = "<group>"; };
+		AAD886DD1C8C8FD3006B5418 /* mazinger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mazinger.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD766681C8C7D9A002662D1 /* MapKit.framework in Frameworks */,
+				AAD766661C8C7D92002662D1 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +53,8 @@
 		AAD766481C8C7D73002662D1 = {
 			isa = PBXGroup;
 			children = (
+				AAD766671C8C7D9A002662D1 /* MapKit.framework */,
+				AAD766651C8C7D92002662D1 /* CoreLocation.framework */,
 				AAD766531C8C7D74002662D1 /* iMazingerZ */,
 				AAD766521C8C7D74002662D1 /* Products */,
 			);
@@ -53,6 +71,9 @@
 		AAD766531C8C7D74002662D1 /* iMazingerZ */ = {
 			isa = PBXGroup;
 			children = (
+				AAD886DD1C8C8FD3006B5418 /* mazinger.png */,
+				AAD7666D1C8C8330002662D1 /* Controllers */,
+				AAD766691C8C80C5002662D1 /* Model */,
 				AAD766571C8C7D74002662D1 /* AppDelegate.h */,
 				AAD766581C8C7D74002662D1 /* AppDelegate.m */,
 				AAD7665A1C8C7D74002662D1 /* Assets.xcassets */,
@@ -69,6 +90,25 @@
 				AAD766551C8C7D74002662D1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAD766691C8C80C5002662D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7666A1C8C80DB002662D1 /* AOAMazingerZ.h */,
+				AAD7666B1C8C80DB002662D1 /* AOAMazingerZ.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AAD7666D1C8C8330002662D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AAD7666E1C8C8392002662D1 /* AOAMazingerViewController.h */,
+				AAD7666F1C8C8392002662D1 /* AOAMazingerViewController.m */,
+				AAD766701C8C8392002662D1 /* AOAMazingerViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +168,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD886DE1C8C8FD3006B5418 /* mazinger.png in Resources */,
+				AAD766721C8C8392002662D1 /* AOAMazingerViewController.xib in Resources */,
 				AAD7665B1C8C7D74002662D1 /* Assets.xcassets in Resources */,
 				AAD7665E1C8C7D74002662D1 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -140,8 +182,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD7666C1C8C80DB002662D1 /* AOAMazingerZ.m in Sources */,
 				AAD766591C8C7D74002662D1 /* AppDelegate.m in Sources */,
 				AAD766561C8C7D74002662D1 /* main.m in Sources */,
+				AAD766711C8C8392002662D1 /* AOAMazingerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +324,7 @@
 				AAD766641C8C7D74002662D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
